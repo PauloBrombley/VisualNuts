@@ -63,3 +63,19 @@ Write a function in Java that:
 - That counts all the official languages spoken in the listed countries.
 - To find the country with the highest number of official languages.
 - To find the most common official language(s), of all countries.
+
+### Solution
+I made a implementation of a Spring Boot REST API endpoint's that can be accessed with a GET request to the `/exerciseTwo` root endpoint. all the routes are:
+- `/countries/count` Returns the number of countries in the JSON
+- `/countries/max-german-languages` Finds the country with the most official languages, where they officially speak German
+- `/languages/count` Counts all the official languages, witout duplicates
+- `/countries/most-languages` Retur the country with the highest number of official languages
+- `/languages/most-common` Find the most common official language(s), of all countries
+
+
+## Testing:
+To run the tests, it is highly recommended to use the maven `clean test` command
+
+## Running:
+To run the project, you have to run the `VisualNutsApplication` class.
+**This project uses Spring Boot**
